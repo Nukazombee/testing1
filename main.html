@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="flex-container1">
+    <div class="box red">Pay attention on css where im using :root selector to set css variables for colors so I can change them all at once later on</div>
+    <div class="box yellow">Also giving divs a class of two words like -green box- allows me to modify both classes -green- and -box- separately</div>
+    <div class="box green">This div contains 3 divs, no display property </div>
+  </div>
+
+  <div class="flex-container2">
+    <div class="box red"></div>
+    <div class="box yellow"></div>
+    <div class="box green">This div has a flex property. Green zone expands with the text inside it</div>
+  </div>
+
+  <div class="flex-container3">
+    <div class="wrapper">
+      <div class="box red"></div>
+      <div class="box yellow"></div>
+    </div>
+    <div class="box green">Flex direction column applied to the parent div here to display content vertically and two top div wrapped in a separate div with a flex property to display them horizontally</div>
+  </div>
+  
+
+  <div class="flex-container4">
+    <div class="wrapper">
+      <div class="box red"></div>
+      <div class="boxY yellow"></div>
+      <div class="boxS red"></div>
+    </div>
+    <div class="box green"> smae as above but flex grow 1 applied to yellow div so it takes the remaining psace.  Third red div has property flex 3 to take more space</div>
+  </div>
+
+  <div class="grid-container">
+    <div class="box red"></div>
+    <div class="box yellow"></div>
+    <div class="box greenY">2x2 Grid. With green div having grid column span 2 property to take two columns  </div>
+  </div>
+  
+  <div class="flex-container5">
+      <div class="boxW red"></div>
+      <div class="boxW yellow"></div>
+      <div class="boxW green">Flex container with justify content property</div>
+  </div>
+
+</body>
+</html>

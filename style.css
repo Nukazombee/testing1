@@ -1,0 +1,93 @@
+:root {
+  --paradise: #EF476F;
+  --crayola: #FFD166;
+  --green: #06D6A0;
+  --powder: #FFEABA;
+}
+
+body {
+  background: var(--powder)
+}
+
+.box {
+  padding: 4rem;
+  
+}
+
+.red {
+  background: var(--paradise);
+}
+
+.yellow {
+  background: var(--crayola);
+}
+
+.green {
+  background: var(--green);
+}
+
+.flex-container1 {
+  border: 2px solid;
+  margin: 44px;
+}
+
+.flex-container2 {
+  border: 2px solid;
+  margin: 44px;
+  display: flex;
+}
+
+.flex-container3 {
+  border: 2px solid;
+  margin: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper{
+  display: flex;
+}
+
+.flex-container4 {
+  border: 2px solid;
+  margin: 44px;
+  display: flex;
+  flex-direction: column;
+}
+
+.boxY {
+  padding: 4rem;
+  flex-grow: 1;
+}
+
+.boxS {
+  flex: 3;
+}
+
+.grid-container {
+  display: grid;
+  border: 2px solid;
+  margin: 44px;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr;
+  width: 400px;
+}
+
+.greenY {
+  background: var(--green);
+  grid-column: span 2;
+}
+
+.flex-container5 {
+  border: 2px solid;
+  margin: 44px;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.boxW {
+  height: 222px;
+  width: 182px;
+  margin: 12px;
+}
