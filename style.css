@@ -15,11 +15,11 @@ body {
 }
 
 .red {
-  background: var(--paradise);
+  background: var(--crayola);
 }
 
 .yellow {
-  background: var(--crayola);
+  background: var(--paradise);
 }
 
 .green {
